@@ -37,4 +37,4 @@ properties:
   SLAVE_DB_USERNAME: springbootweb
   SLAVE_SPRINGBOOTWEB_PASSWORD:
     vault: POSTGRESQL_SPRINGBOOTWEB_PASSWORD
-  nano: 82
+  nano: 83
