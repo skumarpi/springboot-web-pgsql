@@ -19,7 +19,7 @@ properties:
   title: Spring Boot Web - Postgres HA Demo with Pg_Auto_Failover
   nano: 83
   
-  #Master Database
+  #Primary Database
   PRIMARY_DB_HOST: pgconnect-0-2
   PRIMARY_DB_NAME: springbootweb
   PRIMARY_DB_PORT: 5000
@@ -27,7 +27,7 @@ properties:
   PRIMARY_SPRINGBOOTWEB_PASSWORD:
     vault: POSTGRESQL_SPRINGBOOTWEB_PASSWORD
     
-  #Slave Database
+  #Secondary Database
   SECONDARY_DB_HOST: pgconnect-0-2
   SECONDARY_DB_NAME: springbootweb
   SECONDARY_DB_PORT: 5001
