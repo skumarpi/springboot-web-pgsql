@@ -16,7 +16,7 @@ deploy:
   replicas: 1
   
 properties:
-  title: Spring Boot Web - Postgres HA Demo with Pg_Auto_Failover
+  title: Spring Boot Web - Postgres HA Demo
   nano: 83
   
   #Primary Database
